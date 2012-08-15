@@ -53,8 +53,10 @@
 #include <sys/types.h>
 
 /* Get the ELF types.  */
-#include <elf.h>
-
+#include "elf.h"
+#ifndef loff_t
+#define loff_t off_t
+#endif
 
 /* Known translation types.  */
 typedef enum

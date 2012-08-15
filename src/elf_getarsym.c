@@ -61,8 +61,8 @@
 #include <string.h>
 #include <unistd.h>
 
-#include <system.h>
-#include <dl-hash.h>
+#include "system.h"
+#include "dl-hash.h"
 #include "libelfP.h"
 
 

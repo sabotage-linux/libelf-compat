@@ -1,3 +1,4 @@
+#warning parsing elf.h
 /* This file defines standard ELF types, structures, and macros.
    Copyright (C) 1995-2003,2004,2005,2006,2007,2008,2009,2010
 	Free Software Foundation, Inc.
@@ -18,12 +19,9 @@
    Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
    02111-1307 USA.  */
 
-#ifndef _ELF_H
-#define	_ELF_H 1
-
-#include <features.h>
-
-__BEGIN_DECLS
+#ifndef _ELFX_H
+#define	_ELFX_H 1
+#warning inside elf.h
 
 /* Standard ELF types.  */
 
@@ -2793,7 +2791,5 @@ typedef Elf32_Addr Elf32_Conflict;
 #define R_M32R_GOTOFF_LO	64	/* Low 16 bit offset to GOT */
 #define R_M32R_NUM		256	/* Keep this the last entry. */
 
-
-__END_DECLS
 
 #endif	/* elf.h */

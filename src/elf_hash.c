@@ -52,10 +52,10 @@
 # include <config.h>
 #endif
 
-#include <libelfP.h>
+#include "libelfP.h"
 
 /* Get the implementation.  */
-#include <dl-hash.h>
+#include "dl-hash.h"
 
 unsigned long int
 elf_hash (string)

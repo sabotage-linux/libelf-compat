@@ -52,11 +52,11 @@
 #endif
 
 #include <assert.h>
-#include <gelf.h>
 #include <stddef.h>
 
+#include "gelf.h"
 #include "libelfP.h"
-
+#include "elf.h"
 
 int
 __elf_getphdrnum_rdlock (elf, dst)

@@ -52,7 +52,7 @@
 # include <config.h>
 #endif
 
-#include <libelfP.h>
+#include "libelfP.h"
 
 
 /* Is the version initialized?  */

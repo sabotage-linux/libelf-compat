@@ -58,7 +58,7 @@
 #include <unistd.h>
 #include <assert.h>
 
-#include <system.h>
+#include "system.h"
 #include "libelfP.h"
 #include "common.h"
 

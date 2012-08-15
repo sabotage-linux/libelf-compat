@@ -50,7 +50,7 @@
 #ifndef _GELF_H
 #define	_GELF_H 1
 
-#include <libelf.h>
+#include "libelf.h"
 
 
 #ifdef __cplusplus

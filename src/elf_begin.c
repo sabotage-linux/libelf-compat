@@ -64,7 +64,7 @@
 #include <sys/param.h>
 #include <sys/stat.h>
 
-#include <system.h>
+#include "system.h"
 #include "libelfP.h"
 #include "common.h"
 

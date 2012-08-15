@@ -52,11 +52,11 @@
 # include <config.h>
 #endif
 
-#include <libelf.h>
 #include <unistd.h>
 #include <sys/mman.h>
 #include <sys/stat.h>
 
+#include "libelf.h"
 #include "libelfP.h"
 
 

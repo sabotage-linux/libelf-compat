@@ -50,7 +50,8 @@
 # include <config.h>
 #endif
 
-#define crc32 attribute_hidden __libelf_crc32
+//#define crc32 attribute_hidden __libelf_crc32
+#define crc32 __libelf_crc32
 #define LIB_SYSTEM_H	1
-#include <libelf.h>
-#include "../lib/crc32.c"
+#include "libelf.h"
+#include "crc32_c.h"

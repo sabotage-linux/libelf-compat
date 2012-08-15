@@ -52,7 +52,7 @@
 # include <config.h>
 #endif
 
-#include <libelf.h>
+#include "libelf.h"
 #include "libelfP.h"
 
 #ifndef LIBELFBITS

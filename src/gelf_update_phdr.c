@@ -52,10 +52,11 @@
 # include <config.h>
 #endif
 
-#include <gelf.h>
 #include <string.h>
 
 #include "libelfP.h"
+#include "gelf.h"
+#include "elf.h"
 
 
 int

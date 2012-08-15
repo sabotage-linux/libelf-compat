@@ -57,7 +57,7 @@
 #include <string.h>
 #include <unistd.h>
 
-#include <system.h>
+#include "system.h"
 #include "libelfP.h"
 #include "common.h"
 

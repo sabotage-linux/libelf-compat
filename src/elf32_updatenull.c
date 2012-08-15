@@ -54,11 +54,11 @@
 
 #include <assert.h>
 #include <endian.h>
-#include <libelf.h>
 #include <stdbool.h>
 #include <string.h>
 #include <sys/param.h>
 
+#include "libelf.h"
 #include "libelfP.h"
 #include "elf-knowledge.h"
 

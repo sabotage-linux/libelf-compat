@@ -50,5 +50,6 @@
 # include <config.h>
 #endif
 
-#define next_prime attribute_hidden __libelf_next_prime
-#include "../lib/next_prime.c"
+//#define next_prime attribute_hidden __libelf_next_prime
+#define next_prime __libelf_next_prime
+#include "next_prime_c.h"

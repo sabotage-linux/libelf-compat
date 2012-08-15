@@ -54,7 +54,7 @@
 
 #include <assert.h>
 #include <errno.h>
-#include <libelf.h>
+#include "libelf.h"
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
@@ -62,7 +62,7 @@
 #include <sys/mman.h>
 #include <sys/param.h>
 
-#include <system.h>
+#include "system.h"
 #include "libelfP.h"
 
 

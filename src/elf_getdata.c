@@ -58,7 +58,7 @@
 #include <unistd.h>
 
 #include "libelfP.h"
-#include <system.h>
+#include "system.h"
 #include "common.h"
 #include "elf-knowledge.h"
 

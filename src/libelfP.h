@@ -55,8 +55,10 @@
 # include <config.h>
 #endif
 
-#include <ar.h>
-#include <gelf.h>
+#include "eu-config.h"
+
+#include "ar.h"
+#include "gelf.h"
 
 #include <errno.h>
 #include <stdint.h>

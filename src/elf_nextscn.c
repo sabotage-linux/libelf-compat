@@ -53,9 +53,9 @@
 #endif
 
 #include <assert.h>
-#include <libelf.h>
 #include <stddef.h>
 
+#include "libelf.h"
 #include "libelfP.h"
 
 

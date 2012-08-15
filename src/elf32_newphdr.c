@@ -56,6 +56,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include "elf.h"
 #include "libelfP.h"
 
 #ifndef LIBELFBITS

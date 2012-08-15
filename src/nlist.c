@@ -53,11 +53,11 @@
 #endif
 
 #include <fcntl.h>
-#include <gelf.h>
-#include <libelf.h>
 #include <nlist.h>
 #include <unistd.h>
 
+#include "gelf.h"
+#include "libelf.h"
 #include "libelfP.h"
 
 
@@ -74,7 +74,7 @@ struct hashentry
 #define PREFIX nlist_
 #define xcalloc(n, m) calloc (n, m)
 #define next_prime(s) __libelf_next_prime (s)
-#include <fixedsizehash.h>
+#include "fixedsizehash.h"
 
 
 int
