@@ -254,7 +254,8 @@ elf_getarsym (elf, ptr)
 	      else
 		arsym[cnt].as_off = file_data[cnt];
 	      arsym[cnt].as_hash = _dl_elf_hash (str_data);
-	      str_data = rawmemchr (str_data, '\0') + 1;
+	      //str_data = rawmemchr (str_data, '\0') + 1;
+	      str_data += strlen(str_data) + 1;
 	    }
 	  /* At the end a special entry.  */
 	  arsym[n].as_name = NULL;

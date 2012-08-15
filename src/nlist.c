@@ -53,9 +53,9 @@
 #endif
 
 #include <fcntl.h>
-#include <nlist.h>
 #include <unistd.h>
 
+#include "nlist.h"
 #include "gelf.h"
 #include "libelf.h"
 #include "libelfP.h"

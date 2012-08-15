@@ -51,11 +51,11 @@
 #include <errno.h>
 #include <stdlib.h>
 #include <string.h>
-#include <sys/cdefs.h>
 #include <sys/param.h>
 
 #include "system.h"
 
+#define __CONCAT(x,y)  x ## y
 #define CONCAT(t1,t2) __CONCAT (t1,t2)
 
 /* Before including this file the following macros must be defined:

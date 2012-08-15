@@ -52,6 +52,26 @@
 #include <stddef.h>
 #include <stdint.h>
 
+#ifndef __mempcpy
+#define __mempcpy mempcpy
+#endif
+
+#ifdef __GNUC__
+
+/* Evaluate EXPRESSION, and repeat as long as it returns -1 with `errno'
+   set to EINTR.  */
+
+# define TEMP_FAILURE_RETRY(expression) \
+  (__extension__                                                              \
+    ({ long int __result;                                                     \
+       do __result = (long int) (expression);                                 \
+       while (__result == -1L && errno == EINTR);                             \
+       __result; }))
+#else
+#error need gcc __extension__ ?
+#endif
+
+
 extern void *xmalloc (size_t) __attribute__ ((__malloc__));
 extern void *xcalloc (size_t, size_t) __attribute__ ((__malloc__));
 extern void *xrealloc (void *, size_t) __attribute__ ((__malloc__));
