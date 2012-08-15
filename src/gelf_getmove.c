@@ -53,7 +53,7 @@
 #endif
 
 #include <assert.h>
-#include <gelf.h>
+#include "gelf.h"
 #include <stddef.h>
 
 #include "libelfP.h"

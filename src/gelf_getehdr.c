@@ -52,7 +52,7 @@
 # include <config.h>
 #endif
 
-#include <gelf.h>
+#include "gelf.h"
 #include <stddef.h>
 #include <stdlib.h>
 #include <string.h>
