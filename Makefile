@@ -17,6 +17,7 @@ ALL_LIBS=libelf.a
 
 CFLAGS=-O3 -std=gnu99 -D_GNU_SOURCE
 
+CC      = $(CROSS_COMPILE)gcc
 AR      = $(CROSS_COMPILE)ar
 RANLIB  = $(CROSS_COMPILE)ranlib
 
