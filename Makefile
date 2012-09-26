@@ -10,7 +10,7 @@ SRCS = $(LIBSRC)
 OBJS = $(SRCS:.c=.o)
 LIBOBJS = $(LIBSRC:.c=.o)
 
-HEADERS = src/libelf.h
+HEADERS = src/libelf.h src/gelf.h
 ALL_INCLUDES = $(HEADERS)
 
 ALL_LIBS=libelf.a
